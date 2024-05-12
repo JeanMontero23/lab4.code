@@ -76,7 +76,7 @@ int main() {
     // Primeramente se hace una busqueda lineal
     int posicionLineal = busquedaLineal(arreglo, tamano, valor);
     if (posicionLineal != -1) {
-        printf("El valor %d se encuentra en la posición %d (Uso de busqueda lineal).\n", valor, posicionLineal);
+        printf("El valor %d se encuentra en la posicion %d (Uso de busqueda lineal).\n", valor, posicionLineal);
     } else {
         printf("El valor %d no fue encontrado (Uso de busqueda lineal).\n", valor);
     }
@@ -84,7 +84,7 @@ int main() {
     // En segundo lugar se procede a hacer una busqueda binaria iterativa
     int posicionBinaria = busquedaBinaria(arreglo, 0, tamano - 1, valor);
     if (posicionBinaria != -1) {
-        printf("El valor %d se encuentra en la posición %d (Uso de busqueda binaria iterativa).\n", valor, posicionBinaria);
+        printf("El valor %d se encuentra en la posicion %d (Uso de busqueda binaria iterativa).\n", valor, posicionBinaria);
     } else {
         printf("El valor %d no fue encontrado (Uso de busqueda binaria iterativa).\n", valor);
     }
@@ -92,7 +92,7 @@ int main() {
     // Por ultimo se realiza la busqueda binaria recursiva
     int posicionRecursiva = busquedaBinariaRecursiva(arreglo, tamano, valor);
     if (posicionRecursiva != -1) {
-        printf("El valor %d se encuentra en la posición %d (Uso de busqueda binaria recursiva).\n", valor, posicionRecursiva);
+        printf("El valor %d se encuentra en la posicion %d (Uso de busqueda binaria recursiva).\n", valor, posicionRecursiva);
     } else {
         printf("El valor %d no fue encontrado (Uso de busqueda binaria recursiva).\n", valor);
     }
